@@ -1,0 +1,30 @@
+V:BK7231S_1.0.5
+CPSR:000000D3
+R0:000000DF
+R1:00020032
+R2:00000010
+R3:00400020
+R4:DF6EF99F
+R13:FFE5FFFD
+R14(LR):208202A0
+ST:1059045B
+J 0x10000
+
+prvHeapInit-start addr:0x41f788, size:133240
+[01-01 18:12:15 TUYA Debug][uni_thread.c:215] Thread:sys_timer Exec Start. Set to Running Status
+[01-01 18:12:15 TUYA Err][online_log_serv.c:280] log stats ufread fail.
+[01-01 18:12:15 TUYA Debug][online_log_serv.c:540] log serv init success
+0xcb 0x4e 0x3e 0xa4 0x0 0x30 0x9d 0xab 0x65 0x6d 0x8d 0xbf 0xe4 0xb9 0x3f 0x35 
+[01-01 18:12:15 TUYA Notice][tuya_device.c:285] get status -> 0
+
+[01-01 18:12:15 TUYA Notice][tuya_main.c:206] __mf_skip
+
+Initializing TCP/IP stack
+[01-01 18:12:15 TUYA Notice][ffc_app.c:239] ffc auzkey key -> s7IabMZ0Rl61RysZGBHHICZyaqaWfpjL
+[01-01 18:12:15 TUYA Notice][ffc_app.c:99] ffc master mac [7c:f6:66:b4:59:51]
+[01-01 18:12:15 TUYA Notice][tuya_device.c:143] send power cmd
+
+[01-01 18:12:15 TUYA Notice][tuya_device.c:147] kv oem cfg step1 {Jsonver:1.0.0,blindt:8,module:wb3s,nightbrig:5,bristep:20,hsvstep:20,keylt:3,keyglobefunc:[[1,2,1],[2,3,2]],step_rate:20,category:0505,keyccfg2:2,tempstep:20,nightcct:0,keyccfg1:1,crc:29,}[01-01 18:12:15 TUYA Notice][tuya_device.c:148] kv oem cfg step2 pstep:20,nightcct:0,keyccfg1:1,crc:29,}
+[01-01 18:12:15 TUYA Notice][soc_flash.c:176] save oem cfg into uf ok
+[01-01 18:12:15 TUYA Notice][tuya_device.c:186] oem cfg move to uf file ok!
+[01-01 18:12:15 TUYA Notice][device_config_load.c:389] combination data get!!!!!!!!!!!!!! 
